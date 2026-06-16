@@ -31,7 +31,13 @@ const agent = createAgent({
 
 
 const response = await agent.invoke({
-    messages:[{role:'user',content:'What is time in new york'}]
+//     messages: [
+//     {
+//       role: "user",
+//       content: "what is weather in new york?"
+//     },
+//   ],
+    messages:[{role:'user', content:'What is time in new york'}]
 })
 
 
